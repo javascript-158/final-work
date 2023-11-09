@@ -1,0 +1,111 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+.header1{
+    display: flex;
+    padding: 26px 120px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 279px;
+    background: rgba(64, 33, 1, 0.80);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: 1;
+}
+.header_ul{
+    display: flex;
+}
+.header_li{
+    padding-left: 60px;
+}
+.active{
+    color: #D5906E;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.no_active{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sign_div{
+    display: flex;
+}
+.sign_text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 16px;
+}
+.cover1{
+    position: relative;
+    height: 640px;
+    background-color:white;
+}
+.section_cover{
+    object-fit: cover;
+}
+.text_div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+}
+.text1{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;  
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 264px;
+   
+}
+.button1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 392px;
+    padding: 12px 45px;
+    border-radius: 10px;
+    border: 2px solid #D5906E; 
+    background-color:transparent ;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
+}
