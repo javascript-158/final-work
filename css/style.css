@@ -540,8 +540,10 @@ line-height: 24px;
     margin-top: 40px;
 }
 .section6{
-  
+    
+
 }
+
 .section2_title{
     color: #623932;
     font-family: Inter;
@@ -555,21 +557,51 @@ line-height: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: -360px;
+    
 }
 .section2_div2{
     border-radius: 5px;
     border: 2px solid #B53B1B;
     background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 642px;
+}
+.section2_text{
+    margin-right: 24px;
+    margin-left: 21px;
+    
+}
+.image_frame{
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+   flex-wrap: wrap;
+    row-gap: 41px;
+    position: relative;
+    margin-top: px;
+}
+.image15{
+    position: absolute;   
+    left: 0;
+}
+.image_card1{
+  margin-left: 500px;
+  margin-top: 280px;
+}
+.image_card2{
+    margin-top: 220px;
+   
 }
 h5{
-   
     color: #402101;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 29px; 
-  
     float: left;
    margin-right: 24px;
 }
@@ -580,13 +612,13 @@ h5{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 24px;
+    margin-top: 5px;
 }
 .price_div{
     display: inline-flex;
     justify-content: center;
     align-items: flex-end;
-    column-gap: 280px;
+    position: relative;
 }
 .images_text2{
     color: #402101;
@@ -594,17 +626,13 @@ h5{
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; 
+    line-height: 32px;
+    margin-top: 25px;
+    margin-left: -120px;
+    margin-right: 290px;
+
 }
-.images_div2{
-    float: left;
-    margin-left: 100px;
-    margin-top: 72px;
-    
-}
-.image11{
-    margin-left: 230px;
-}
+
 .images_text3{
    
     color: #B53B1B;
@@ -614,14 +642,64 @@ h5{
     font-weight: 400;
     line-height: normal;
     margin-top: 24px;
+
 }
-.images_div3{
-    margin-top: 70px;
-    float: right;
+.images_text5{
+    position: absolute;
+    right: 1320px;
+    top: 530px;
+    color: #B53B1B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
 }
-.image12{
-    margin-left: 80px;
-    margin-top: 40px;
+.images_text4{
+    position: absolute;
+    top: -16px;
+    right: 430px;
+    color: #402101;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    
+}
+
+.images_text7{
+  position: absolute;
+ left: 500px;
+ bottom: 670px;
+ color: #B53B1B;
+ font-family: Inter;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+
+}
+.images_text6{
+    position: absolute;
+    right: 420px;
+    top: 290px;
+    
+}
+.img18{
+    position: absolute;
+    right: 80px;
+    top: 250px;
+}
+.img17{
+    position: absolute;
+    right: 110px;
+}
+.image_card3{
+    position: absolute;
+    top: 320px;
+    left: 960px;
 }
 .contact_section{
     position: relative;
@@ -799,5 +877,31 @@ position: relative;
     100%{
         width: 100px;
     }
+    
+}
+.active:hover{
+   
+        text-shadow:
+        0 0 7px #6a91d4,
+        0 0 10px #86b5e8,
+        0 0 21px #6d94d2,
+        0 0 42px rgb(31, 115, 189),
+        0 0 82px rgb(49, 129, 163),
+        0 0 92px rgb(33, 100, 182),
+        0 0 102px rgb(42, 87, 142),
+        0 0 151px rgb(0, 38, 255);
+   
+}
+.no_active:hover{
+    
+        text-shadow:
+        0 0 7px #6a91d4,
+        0 0 10px #86b5e8,
+        0 0 21px #6d94d2,
+        0 0 42px rgb(105, 31, 189),
+        0 0 82px rgb(163, 49, 49),
+        0 0 92px rgb(122, 33, 182),
+        0 0 102px rgb(142, 42, 59),
+        0 0 151px rgb(255, 0, 0);
     
 }
