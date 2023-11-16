@@ -114,6 +114,32 @@
     font-weight: 400;
     line-height: 24px
 }
+.button1::before{
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    display: block;
+    position: absolute;
+ top: 0;
+ left: 0;
+  transition: 1s linear;   
+}
+.button1::after{
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    display: block;
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 1s linear;
+}
+.button1:hover::before, 
+.button1:hover::after{
+    width: 100%;
+}
 /* SECTION2 */
 .section2{
     margin-top: 160px;
@@ -420,6 +446,33 @@ h3{
     line-height: 32px; 
     padding: 12px 52px;
     border: none;
+    position: relative;
+}
+.button3::before{
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    display: block;
+    position: absolute;
+ top: 0;
+ left: 0;
+  transition: 1s linear;   
+}
+.button3::after{
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    display: block;
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 1s linear;
+}
+.button3:hover::before, 
+.button3:hover::after{
+    width: 100%;
 }
 .footer1{
     height: 218px;
@@ -457,7 +510,72 @@ h4{
     display: flex;
     column-gap: 24px;
 }
-
+.image1:hover{
+    overflow: hidden;
+    transform: scale(120%);
+}
+.image2:hover{
+    overflow: hidden;
+    transform: scale(120%);
+}
+.image3{
+position: relative;
+}
+.image3::before{
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    display: block;
+    position: absolute;
+ top: 0;
+ left: 0;
+  transition: 1s linear;   
+}
+.image3::after{
+    content: "";
+    width: 100;
+    height: 5px;
+    background-color: gold;
+    display: block;
+    position: absolute;
+right: 0;
+bottom: 0;
+  transition: 1s linear;
+}
+.image3:hover::before, 
+.image3:hover::after{
+    width: 100%;
+}
+.image4{
+    position: relative;
+    }
+    .image4::before{
+        content: "";
+        width: 0;
+        height: 5px;
+        background-color: green;
+        display: block;
+        position: absolute;
+     top: 0;
+     left: 0;
+      transition: 1s linear;   
+    }
+    .image4::after{
+        content: "";
+        width: 100;
+        height: 5px;
+        background-color: green;
+        display: block;
+        position: absolute;
+    right: 0;
+    bottom: 0;
+      transition: 1s linear;
+    }
+    .image4:hover::before, 
+    .image4:hover::after{
+        width: 100%;
+    }
 .logo_div2{
     margin-top: 32px;
   
@@ -540,8 +658,10 @@ line-height: 24px;
     margin-top: 40px;
 }
 .section6{
-    
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin-left: 80px;
 }
 
 .section2_title{
@@ -581,7 +701,7 @@ line-height: 24px;
    flex-wrap: wrap;
     row-gap: 41px;
     position: relative;
-    margin-top: px;
+    
 }
 .image15{
     position: absolute;   
@@ -672,7 +792,7 @@ h5{
 .images_text7{
   position: absolute;
  left: 500px;
- bottom: 670px;
+ bottom: 710px;
  color: #B53B1B;
  font-family: Inter;
  font-size: 16px;
@@ -683,14 +803,81 @@ h5{
 }
 .images_text6{
     position: absolute;
-    right: 420px;
-    top: 290px;
+    top: 260px;
+   right: 350px;
+   color: #402101;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
     
 }
+.images_text5{
+    position: absolute;
+    top: 510px;
+    left: 0;
+}
+.images_text4{
+    position: absolute;
+    top: 30px;
+}
+
+.img17{
+    position: absolute;
+    top: 5px;
+}
+.image_card1{
+    margin-top: 180px;
+    
+}
+.image_card4{
+  margin-bottom: 60px;
+
+}
+.image16{
+    position: absolute;
+    top:  620px;
+    right: 100px;
+
+}
+.image19:hover{
+    overflow: hidden;
+    transform: scale(120%);
+}
+.images_text8{
+    position: absolute;
+    top: 870px;
+    right: 410px;
+    color: #B53B1B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.images_text9{
+    position: absolute;
+    top: 900px;
+    right: 420px;
+    color: #402101;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.img20{
+    position: absolute;
+    top: 890px;
+    right: 95px;
+}
+
 .img18{
     position: absolute;
-    right: 80px;
-    top: 250px;
+    right: 30px;
+   top: 250px;
 }
 .img17{
     position: absolute;
