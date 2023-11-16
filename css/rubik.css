@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-LightItalic.woff2') format('woff2'),
+        url('../fonts/Rubik-LightItalic.woff') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
