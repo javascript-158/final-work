@@ -1,0 +1,175 @@
+@media (max-width: 1024px){
+   .header1{
+    display: flex;
+    width: 1024px;
+    padding: 26px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 159px;    
+   }
+   .section_cover{
+    width: 1024px;
+    height: 640px;
+   }  
+   .cover1{
+    position: relative;
+   }  
+   .title1{
+    position: absolute;
+    top: 220px;
+   }
+   .text1{
+    position: absolute;
+    top: 300px;
+   } 
+   .button1{
+    position: absolute;
+    top: 450px;
+   }
+   .section2{
+    margin-left: 116px;
+   }
+   .section3{
+    width: 1024px;
+   }
+   .section3_div{
+    margin-left: 32px;
+   }
+
+   .img2{
+        
+        width: 591px;
+        
+    }
+    .img5{
+        width: 345px;
+        position: absolute;
+        
+    }
+    .img3{
+        width: 283.5px;
+        position: absolute;
+        top: 530px;
+        left: 320px;
+    }
+.img4{
+    width: 345px;
+    height: 260px;
+    position: absolute;
+    top: 530px;
+}
+.img7{
+    position: absolute;
+    top: 530px;
+    left: 0;
+}
+h3{
+  position: absolute;
+  left: 401px;
+}
+.section4{
+    margin-left: 132px;
+  
+}
+
+.image45{
+    display: none;
+}
+.title2{
+position: absolute;
+left: 280px;
+}
+.card_surface_content3{
+    display: none;
+}
+.image1{
+ 
+    height: 260px;
+}
+.image2{
+    height: 260px;
+}
+
+.cover2{
+    width: 1024px;
+    
+}
+.section5_title{
+    position: absolute;
+    left: 310px;
+  top: 80px;
+}
+.input1{
+    position: absolute;
+    left: 290px;
+    top: 160px;
+
+}
+.label1{
+    position: absolute;
+    left: 620px;
+    top: 160px;
+}
+.article1{
+    width: 960px;
+    height: 564px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.article_div1{
+    width: 468px;
+    height: 172px;
+    
+}
+.article_div2{
+    width: 960px;
+    height: 124px;
+   margin-bottom: 160px;
+  
+}
+.article_div3{
+    width: 468px;
+    height: 172px;
+   
+}
+.article_text3{
+    position: absolute;
+    top: 3700px;
+    left: 100px;
+}
+.button3{
+    position: absolute;
+    top: 3800px;
+    left: 100px;
+}
+.title3{
+  margin-left: 250px;
+}
+.footer1{
+    width: 1024px;
+}
+.footer_nav{
+    position: absolute;
+    left: -110px;
+}
+.image3{
+    position: absolute;
+    left: 0;
+}
+.image21{
+    position: absolute;
+    left: 90px;
+}
+.image22{
+    position: absolute;
+    left: 140px;
+}
+.logo_image{
+    position: absolute;
+    left: 383px;
+}
+.contact_div{
+    margin-top: 32px;
+    margin-right: -100px;
+}
+}
