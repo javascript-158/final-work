@@ -77,7 +77,7 @@ h3{
 }
 .title2{
 position: absolute;
-left: 280px;
+left: 230px;
 }
 .card_surface_content3{
     display: none;
@@ -166,10 +166,274 @@ left: 280px;
 }
 .logo_image{
     position: absolute;
-    left: 383px;
+    left: 300px;
 }
 .contact_div{
     margin-top: 32px;
     margin-right: -100px;
+}
+.card_title{
+ position: absolute;
+ right: -70px;;
+ bottom: 16px;
+ width: 88px;
+height: 48px;
+border: none;
+border-radius: 20px;
+color: #B53B1B;
+font-family: 'Inter';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.card_title2{
+    position: absolute;
+    left: -120px;
+}
+.card_title3{
+    position: absolute;
+  left: 180px;
+}
+.section4_div{
+    margin-right: 80px;
+}
+.title1{
+   position: absolute;
+  top: 200px;
+}
+.input2{
+    position: absolute;
+    top: 250px;
+    left: 218px;
+}
+.label2{
+    position: absolute;
+    top: 250px;
+    right: 218px;
+}
+.section6{
+    width: 960px;
+    height: 1716px;
+    
+}
+.image56{
+    display: none;
+}
+.image55{
+    position: absolute;
+ top: 440px;
+ right:  475px;
+}
+
+.image18{
+    position: absolute;
+    top: 100px;
+}
+.image28{
+    position: absolute;
+    top:  440px;
+    left: 440px;
+}
+.images_text22{
+    display: none;
+}
+.images_text23{
+    display: none;
+}
+.image57{
+    display: none;
+}
+.image68{
+    position: absolute;
+    top: 760px;
+    left: 100px;
+}
+.image70{
+    position: absolute;
+    top: 760px;
+    right: 40px;
+}
+.image71{
+   position: absolute;
+   left: 0;
+   top: 1050px;
+  
+}
+.image72{
+    position: absolute;
+    top: 730px;
+}
+.numbers_div{
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -350px;
+}
+.images_div5{
+    position: absolute;
+    left: 420px;
+}
+.nav2{
+    position: absolute;
+    left: -110px;
+}
+.logo_div4{
+    position: absolute;
+    left: 300px;
+}
+.image44{
+    position: absolute;
+    left: 90px;
+}
+.image49{
+    position: absolute;
+    left: 140px;
+}
+.section2_title{
+position: absolute;
+top: 30px;
+}
+.section2_div2{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.images_text43{
+    
+   left: -430px;
+}
+.img17{
+   
+    left: -80px;
+}
+.images_text7{
+    
+     top: 340px;    
+}
+.images_text6{
+  
+    top: 250px;
+    left: -20px;
+}
+.img18{
+left: 320px;
+}
+.images_text29{
+ top: 680px;
+}
+ .images_text10{
+top: 570px;
+left: -840px;
+ }
+ .img21{
+    top: 470px;
+    left: -280px;
+ }
+ .images_text33{
+  position: absolute;
+  top: 680px;
+  left: 540px;
+ }
+ .images_text34{
+    position: absolute;
+    top: 550px;
+    left: -290px;
+ }
+ .img75{
+    position: absolute;
+    top: 550px;
+    left: -70px;
+ }
+ .images_text76{
+    position: absolute;
+    top: 1000px;
+    right: 730px;
+ }
+ .images_text78{
+position: absolute;
+ top: 880px;
+ left: -695px;
+ }
+ .img80{
+    position: absolute;
+    top: 860px;
+    left: -470px;
+ }
+ .images_text8{
+    position: absolute;
+    top: 970px;
+ }
+ .images_text9{
+    position: absolute;
+    top: 1000px;
+ }
+ .img20{
+    position: absolute;
+    top: 980px;
+ }
+ .images_text31{
+    top: 340px;
+
+ }
+ .images_text7{
+    position: absolute;
+    top: 1000px;
+    left: 520px;
+ }
+.images_text5{
+    position: absolute;
+    top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cover3{
+    width: 1024px;
+    height: 720px;
+}
+.form1{
+    position: absolute;
+    top: 150px;
+    left: 32px;
+}
+.section7{
+    width: 960px;
+    
+}
+.map{
+    position: absolute;
+    left: -380px;
+    width: 714px;
+    height: 320px;
+}
+.section7_title{
+    margin-left: 350px;
+}
+.logo_div5{
+    margin-left: 500px;
+}
+.image3{
+    position: absolute;
+    left: 10px;
+}
+.image88{
+    position: absolute;
+    left: 90px;
+}
+.image87{
+    position: absolute;
+    left: 140px;
 }
 }
