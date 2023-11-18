@@ -2,13 +2,23 @@
     .header_nav{
         display: none;
     }
-    .burger_menu{
-        display: block;
+    .fa-solid{
+       display: block;
+       position: absolute;
+    
+        
     }
+    .logo_image{
+       top: 25px;
+       margin-left: -100px;
+    }
+
     .header1{
         width: 744px;
-     
+        display: flex;
+        justify-content: space-between;
     }
+  
     .cover1{
         width: 744px;
     }
@@ -110,8 +120,8 @@
     width: 744px;
     height: 204px;
 }
-.logo_image{
-    margin-left: -100px;
+.logo_image2{
+ margin-left: 500px;
 }
 .image21{
     margin-left: 80px;

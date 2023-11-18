@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="css/inter.css">
     <link rel="stylesheet" href="css/rubik.css">
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/67dd750e3e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+  
     <link rel="stylesheet" href="css/laptop.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/tablet.css">
-    <script src="https://kit.fontawesome.com/67dd750e3e.js" crossorigin="anonymous"></script>
+    
     
 
 </head>
@@ -20,9 +23,9 @@
     <div class="container">
         <!-- HEADER -->
         <header class="header1">
-          <i class="fa-solid fa-bars"></i>
-          <i class="fa-solid fa-xmark"></i>
-          <img src="images/burger_menu.svg" alt="" class="burger_menu">
+          <i class="fa-solid fa-bars burger_menu"></i>
+          <i class="fa-solid fa-xmark mark"></i>
+        
             <!-- NAVIGATION -->
             <nav class="header_nav">
              <ul class="header_ul">
@@ -30,7 +33,19 @@
             <li class="header_li"><a target="_blank" class="no_active" href="artworks.html">Artworks</a></li>
             <li class="header_li"><a target="_blank" class="no_active" href="contact.html">Contact</a></li>
              </ul>
+         
             </nav>
+            <div class="option2">
+              <select name="option" id="option">
+                <option value=""></option>
+                  <option value="home" id="home">home</option>
+                  <option value="artworks" id="artworks">artworks</option>
+                  <option value="contact" id="contact">contact</option>
+              </select>
+            
+          </div>
+
+           
             <div class="logo_div">
                <a href="index.html">
                 <img src="images/logo (5).svg" alt="" class="logo_image">
@@ -38,7 +53,7 @@
             </div>
             <div class="sign_div">
              <p class="sign_text">Sign In</p>
-             <img src="images/Group 1.svg" alt=""> 
+             <img src="images/Group 1.svg" alt="" class="image74"> 
             </div>
             
         </header>
@@ -203,6 +218,7 @@
         </footer>
         <script src="script.js"></script>
     </div>
+  
 
 </body>
 </html>

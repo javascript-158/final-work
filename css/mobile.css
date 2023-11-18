@@ -5,7 +5,7 @@
     .header_nav{
         display: none;
     }
-    .burger_menu{
+    .fa-bars{
         display: block;
 
         
@@ -15,7 +15,7 @@
         width: 113px;
         height: 78px;
         position: absolute;
-        top: 10px;
+        margin-top: -25px;
         left: 400px;
         
         
@@ -135,10 +135,11 @@ height: 330px;
 }
 .logo_image2{
    margin-top: 200px;
-   margin-left: 400px;
+  margin-right: 60px;
    width: 234px;
    height: 44px;
 }
+
 .image7{
 top: 300px;
 margin-left: -350px;
@@ -197,42 +198,42 @@ margin-left: 20px;
   min-height: 400px;
 
 }
-.logo_div4{
+
+.logo_div5{
   margin-top: 200px;
-left: 260px;
+  margin-left: 350px;
+}
+.image88{
+  margin-left: 150px;
+}
+.image87{
+  margin-left: 150px;
 }
 }
 @media (max-width: 320px){
 .section7{
   display: none;
 }
-.footer1{
-  /* display: none; */
-}
+
 .header1{
-  width: 480px;
-  height: 96px;
+width: 480px;
+height: 96px;
+
 }
-.header_nav {
-  background: #B53B1B;
-  position: fixed;
-  top: 146.4px;
-  left: -100%;
-  transition: .5s linear;
+
+.footer1{
+  display: none;
 }
-.show{
-  left: 0;
+.fa-bars{
+  display: block;
+  margin-left: 200px;
 }
-.header_ul {
-  flex-direction: column;
-  align-items: center;
-}
-.sign_div{
-  margin-left: -140px;
-}
+
+
 .logo_image{
   width: 113px;
   height: 78px;
+  margin-top: -20px;
 }
 .form1{
   width: 400px;

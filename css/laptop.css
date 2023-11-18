@@ -3,7 +3,7 @@
     display: flex;
     width: 1024px;
     padding: 26px 32px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 159px;    
    }
@@ -66,6 +66,10 @@
 h3{
   position: absolute;
   left: 401px;
+}
+.logo_image{
+    margin-left: 200px;
+    top: 25px;
 }
 .section4{
     margin-left: 132px;

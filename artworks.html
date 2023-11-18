@@ -17,7 +17,8 @@
     <div class="container">
         <!-- HEADER -->
         <header class="header1">
-         <img src="images/burger_menu.svg" alt="" class="burger_menu">
+         <i class="fa-solid fa-bars burger_menu"></i>
+         <i class="fa-solid fa-xmark mark"></i>
             <!-- NAVIGATION -->
             <nav class="header_nav">
              <ul class="header_ul">
@@ -25,7 +26,17 @@
             <li class="header_li"><a  class="no_active" href="artworks.html">Artworks</a></li>
             <li class="header_li"><a target="_blank" class="no_active" href="contact.html">Contact</a></li>
              </ul>
+            
             </nav>
+            <div class="option2">
+               <select name="option" id="option">
+                 <option value=""></option>
+                   <option value="home" id="home">home</option>
+                   <option value="artworks" id="artworks">artworks</option>
+                   <option value="contact" id="contact">contact</option>
+               </select>
+             
+           </div>
             <div class="logo_div">
                <a href="index.html">
                 <img src="images/logo (5).svg" alt="" class="logo_image">
