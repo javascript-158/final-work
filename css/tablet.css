@@ -2,12 +2,11 @@
     .header_nav{
         display: none;
     }
-    .fa-solid{
+    .burger
+    {
        display: block;
-       position: absolute;
-    
-        
     }
+
     .logo_image{
        top: 25px;
        margin-left: -100px;

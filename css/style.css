@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
 /* CONTAINER */
 .container{
     max-width: 1440px;
@@ -8,7 +12,7 @@
 .header1{
     height: 96px;
     display: flex;
-    padding: 26px 120px;
+    
     justify-content: center;
     align-items: center;
     column-gap: 279px;
@@ -23,7 +27,7 @@
     z-index: 1;
 }
 
-.burger_menu,
+.burger,
 .mark {
     font-size: 0;
     display: none;
@@ -429,6 +433,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -120px;
 }
 .article1{
     display: flex;
@@ -729,12 +734,17 @@ line-height: 24px;
     border-radius: 0px 10px 10px 0px;
     background: #D5906E;
     margin-top: 40px;
+margin-left: -120px;
 }
+
+/* SECTION6 */
 .section6{
     display: flex;
     justify-content: space-between;
     align-items: center;
 margin-left: 80px;
+width: 1201px;
+height: 1350px;
 }
 
 .section2_title{
@@ -744,14 +754,13 @@ margin-left: 80px;
     font-style: normal;
     font-weight: 400;
     line-height: 48px; 
-    margin-left: 100px;
+    margin-top: -350px;
 }
 .section2_div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: -360px;
-    
+    margin-top: 160px;
 }
 .section2_div2{
     border-radius: 5px;
@@ -761,6 +770,7 @@ margin-left: 80px;
     justify-content: center;
     align-items: center;
     margin-left: 642px;
+    margin-top: -350px;
 }
 .section2_text{
     margin-right: 24px;
@@ -775,19 +785,204 @@ margin-left: 80px;
     row-gap: 40px;
     position: relative;
     column-gap: 13px;
+    margin-top: 160px;
 }
-.image15{
-    position: absolute;   
-    left: 100px;
+.pottery_cards1{
+    display: flex;
+    margin-top: -150px;
+    position: relative;
+    column-gap: 24px;
+  
 }
-.image_card1{
-  margin-left: 500px;
-  margin-top: 280px;
+.pottery_title{
+    position: absolute;
+ top: 250px;
+    color: #B53B1B;
+    font-family: 'inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.image_card2{
-    margin-top: 220px;
+.pottery_title1{
+    position: absolute;
+    top: 250px;
+    left: 435px;
+    color: #B53B1B;
+    font-family: 'inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pottery_title2{
+    position: absolute;
+    top: 250px;
+    right: 310px;
+    color: #B53B1B;
+    font-family: 'inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price7{
+    position: absolute;
+    left: -400px;
+}
+.price1{
+    position: absolute;
+    top: 280px;
+    right: 340px;
+    color: #402101;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.price2{
+    position: absolute;
+    top: 280px;
+    right: 340px;
+    color: #402101;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.price_div{
+   position: relative;
+}
+.price{
+    position: absolute;
+    top: 280px;
+    right: 340px;
+    color: #402101;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.shop1{
+position: absolute;
+top: 270px;
+right: 30px;
+}
+.shop2{
+    position: absolute;
+    top: 270px;
+    right: 30px;
+}
+.shop3{
+    position: absolute;
+    top: 270px;
+    right: 25px;
+}
+.shop4{
+position: absolute;
+top: 270px;
+left: -450px;
+
+}
+.shop7{
+    position: absolute;
+    left: 340px;
+    top: 30px;
+}
+.pottery_cards2{
+    margin-top: 50px;
+}
+.pottery_card{
+    position: absolute;
+    top: 350px;
+    right: -20px;
+    display: flex;
+    column-gap: 46px;
    
+    
 }
+.shop6{
+    position: absolute;
+    top: 270px;
+    left: -60px;
+}
+
+.potter6{
+    position: absolute;
+    left: -355px;
+}
+.img91{
+    position: absolute;
+    left: -790px;
+}
+.potter5{
+    position: absolute;
+    left: 95px;
+}
+.price3{
+    position: absolute;
+    top: 340px;
+    left: -435px;
+    color: #402101;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+
+}
+.pottery_cards3{
+
+left: 1250px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -600px;
+
+  
+}
+.price6{
+   position: absolute;
+   top: 40px;
+   left: 5px;
+   color: #402101;
+   font-family: 'Inter';
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px; 
+}
+.price3{
+   margin-top: -60px;
+   margin-left: -355px;
+}
+.price4{
+    position: absolute;
+   top: 280px;
+   left: -405px;
+   color: #402101;
+   font-family: 'Inter';
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px;
+}
+.potter4{
+    position: absolute;
+    top: 250px;
+    left: -790px;
+}
+
+.img90{
+   position: absolute;
+   left: -360px;
+
+}
+
+
 h5{
     color: #402101;
     font-family: 'Inter';
@@ -798,178 +993,18 @@ h5{
     float: left;
    margin-right: 24px;
 }
-.images_text{
-    color: #B53B1B;
-    font-family: 'Inter';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 5px;
-    
-}
-.images_text10{
-    position: absolute;
-    left: 100px;
-    top: -30px;
-    color: #402101;
-    font-family: 'Inter';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-}
-.img31{
-    position: absolute;
-    top: -20px;
-    left: 440px;
-}
-.images_text29{
-    position: absolute;
-    left: 100px;
-    top: 840px;
-    color: #B53B1B;
-    font-family: 'Inter';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-   
-}
-.images_text31{
-    position: absolute;
-    left: 100px;
-    color: #B53B1B;
-    font-family: 'Inter';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.images_text32{
-    position: absolute;
-    left: 100px;
-    color: #402101;
-    font-family: 'Inter';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    top: 20px;
-}
-.price_div{
-    display: inline-flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: relative;
-}
-.images_text2{
-    color: #402101;
-    font-family: 'Inter';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 25px;
-    margin-left: -130px;
-    margin-right: 250px;
 
-}
 
-.images_text3{
-   
-    color: #B53B1B;
-    font-family: 'Inter';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 24px;
-   
 
-}
-.images_text5{
-    position: absolute;
-    left: 0;
-    top: 500px;
-    color: #B53B1B;
-    font-family: 'Inter';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
-}
-.images_text43{
-    position: absolute;
-    top: 130px;
-    left: 40px;
-    color: #402101;
-    font-family: 'Inter';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    
-}
 
-.images_text7{
-  position: absolute;
- left: 540px;
- bottom: 720px;
- color: #B53B1B;
- font-family: 'Inter';
- font-size: 16px;
- font-style: normal;
- font-weight: 400;
- line-height: normal;
 
-}
-.images_text6{
-    position: absolute;
-    top: 245px;
-   right: 555px;
-   color: #402101;
-    font-family: 'Inter';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    
-}
-.image28{
-    margin-left: 100px;
-    margin-bottom: 40px;
-}
-.images_text5{
-    position: absolute;
-    top: 500px;
-    left: 100px;
-}
-.images_text4{
-    position: absolute;
-    top: 30px;
-}
 
-.img17{
-    position: absolute;
-    top: 20px;
-    left: -50px;
-}
-.image_card1{
-    margin-top: 180px;
-    
-}
-.image_card4{
-  margin-bottom: 60px;
 
-}
-.image16{
-    position: absolute;
-    top:  630px;
-    left: -420px;
 
-}
+
+
+
+
 .image19:hover{
     overflow: hidden;
     transform: scale(120%);
@@ -1035,8 +1070,11 @@ h5{
     left: 540px;
 }
 .numbers_article{
-    margin-top: 96px;
-    margin-left: 500px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
     
 }
 .button15{
@@ -1261,3 +1299,4 @@ position: relative;
         0 0 151px rgb(255, 0, 0);
     
 }
+
