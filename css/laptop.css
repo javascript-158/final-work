@@ -1,11 +1,96 @@
+@media (max-width: 1439px){
+    .img2{
+        
+        width: 591px;
+    
+    }
+    .img3{
+        width: 283.5px;
+        position: absolute;
+        top: 530px;
+        left: 320px;
+    }
+    .img5{
+        width: 345px;
+        position: absolute;
+        
+    }
+    .img4{
+        width: 345px;
+        height: 260px;
+        position: absolute;
+        top: 530px;
+    }
+    .img7{
+        position: absolute;
+        top: 530px;
+        left: 0;
+    }
+    .section3_div{
+      margin-left: 10px;
+    }
+    h3{
+        margin-left: -150px;
+    }
+    .header1{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .images_div{
+        margin-left: -380px;
+    }
+    .section2{
+        margin-left: 150px;
+    }
+}
+@media (max-width: 1243px){
+    .header1{
+        display: flex;
+        justify-content: space-between;
+        width: 1227px;
+    }
+    .images_div{
+        margin-left: -310px;
+    }
+}
+@media (max-width: 1124px){
+.header1{
+    display: flex;
+    justify-content: space-between;
+    width: 1124px;
+}
+
+.logo_image{
+    margin-left: -100px;
+}
+.sign_text{
+    margin-left: -100px;
+}
+.images_div{
+    margin-left: -220px;
+}
+.title2{
+    margin-left: -280px;
+}
+.title3{
+    margin-left: 350px;
+}
+.section5_title{
+    margin-left: -260px;
+}
+.input1{
+    margin-left: -240px;
+}
+.label1{
+    margin-left: -300px;
+}
+}
 @media (max-width: 1024px){
    .header1{
-    display: flex;
+   
     width: 1024px;
-    padding: 26px 32px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 159px;    
+     
    }
 
    .section_cover{
@@ -23,6 +108,13 @@
     position: absolute;
     top: 300px;
    } 
+   .input2{
+    margin-left: 80px;
+   }
+   .label2{
+    margin-left: 50px;
+
+   }
    .button1{
     position: absolute;
     top: 450px;
@@ -36,7 +128,7 @@
    .section3_div{
     margin-left: 32px;
    }
-
+/* 
    .img2{
         
         width: 591px;
@@ -63,7 +155,7 @@
     position: absolute;
     top: 530px;
     left: 0;
-}
+} */
 h3{
   position: absolute;
   left: 401px;
@@ -76,9 +168,21 @@ h3{
     margin-left: 132px;
   
 }
+.numbers_article{
+    margin-top: -300px;
+    margin-left: 400px;
+}
+.image67{
+    margin-left: -200px;
+}
+.image49{
+    margin-left: -70px;
+}
+.image44{
+    margin-left: -120px;
+}
+.image_frame{
 
-.image45{
-    display: none;
 }
 .title2{
 position: absolute;
