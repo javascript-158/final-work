@@ -438,6 +438,9 @@ margin-left: 100px;
       .mobile_nav.show{
         left: 0;
       }
+      .mark{
+        display: none;
+      }
       
     }
     @media (max-width:940px){
