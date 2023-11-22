@@ -220,3 +220,48 @@ margin-left: -30px;
   margin-left: -100px;
 }
 }
+@media (max-width: 320px){
+  .header1{
+    width: 320px;
+    height: 96px;
+  }
+  .sign_div{
+    margin-left: -300px;
+  }
+  .logo_image{
+    margin-left: -200px;
+  }
+  .cover1{
+    margin-left: -100px;
+  }
+  .section2{
+    display: none;
+  }
+  .section3{
+    display: none;
+  }
+  .section4{
+    display: none;
+  }
+  .section5{
+    display: none;
+  }
+  .article1,.article2{
+    display: none;
+  }
+  .title3{
+    display: none;
+  }
+  .footer1{
+    display: none;
+    }
+   .numbers_article, .section6{
+      display: none;
+    }
+    .header2{
+      margin-left: -10px;
+    }
+    .section7{
+      display: none;
+    }
+}
