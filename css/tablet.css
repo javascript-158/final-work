@@ -22,6 +22,9 @@
     margin-left: 20px;
     background-color: rgba(255, 255, 255, 1);
   }
+  .mark{
+    display: none;
+  }
 
     .cover1{
         width: 975px;
@@ -361,6 +364,31 @@ margin-left: 100px;
 .logo_div5{
     margin-left: 300px;
 }
+.mobile_nav{
+    display: block;
+    position: fixed;
+    top: 0;
+   left: 100%;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 98;
+    padding-top: 120px;
+    transition: 0,4s;
+  }
+  .mobile_nav a{
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background-color: rgba(181, 59, 27, 1);
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  color: white;
+  }
+  .mobile_nav.show{
+    left: 0;
+  }
 }
 @media (max-width: 941px){
     .header_nav{
@@ -385,6 +413,38 @@ margin-left: 100px;
       .logo_image{
         margin-left: -80px;
       }
- 
+      .mobile_nav{
+        display: block;
+        position: fixed;
+        top: 0;
+       left: 100%;
+        min-height: 100vh;
+        width: 100%;
+        z-index: 98;
+        padding-top: 120px;
+        transition: 0,4s;
+      }
+      .mobile_nav a{
+      display: block;
+      text-align: center;
+      margin-bottom: 16px;
+      padding: 12px 16px;
+      background-color: rgba(181, 59, 27, 1);
+      width: 100%;
+      max-width: 200px;
+      margin: 0 auto 16px;
+      color: white;
+      }
+      .mobile_nav.show{
+        left: 0;
+      }
       
+    }
+    @media (max-width:940px){
+        .header1{
+            width: 950px;
+        }
+        .mark{
+            display: none;
+        }
     }
