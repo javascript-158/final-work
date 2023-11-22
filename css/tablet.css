@@ -1,51 +1,93 @@
-@media (max-width: 1023px){
+@media (max-width: 975px){
     .header_nav{
-        display: none;
+      display: none;
+      margin-left: 200px;
     }
-    .burger
-    {
-       display: block;
-    }
+
 
     .logo_image{
        top: 25px;
-       margin-left: -100px;
+       margin-left: 100px;
     }
   .header1{
         width: 1023px;
         display: flex;
         justify-content: space-between;
+        
     }
-  
+
+  .burger{
+    display: block;
+    font-size: 32px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
     .cover1{
-        width: 744px;
+        width: 975px;
     }
     .title1{
-       position: absolute;
-       top: 180px;
-       left: 340px;
+      margin-top: -40px;
+      margin-left: 200px;
        font-size: 32px;
        line-height: 40px;
     }
     .text1{
         position: absolute;
         top: 250px;
-        right: 0;
+        left: 500px;
         width: 664px;
     }
     .button1{
         position: absolute;
-        top: 400px;
+        top: 350px;
+    }
+    h3{
+        margin-left: 10px;
     }
     .section2{
         width: 384px;
         height: 364px;
         display: flex;
         flex-wrap: wrap;
+        margin-left: 300px;
     }
     .section3{
         width: 744px;
         height: 1264px;
+        margin-left: 100px;
+    }
+    .image11{
+        margin-left: -400px;
+        width: 282px;
+        height: 260px;
+    }
+    .article1{
+     margin-left: 80px;
+    }
+
+    .image12{
+        width: 282px;
+        height: 260px;
+        margin-left: -400px;
+    }
+    .card_title3{
+        display: none;
+    }
+    .card_title{
+        margin-left: 200px;
+    }
+    .card_title2{
+        margin-left: -20px;
+    }
+    .section4{
+        margin-left: 20px;
+    }
+    .title2{
+     margin-left: -180px;
+    }
+    .image2{
+        display: none;
     }
     .img44{
         display: none;
@@ -112,14 +154,14 @@
     left: 20px;
 }
 .title3{
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .footer1{
     width: 744px;
     height: 204px;
 }
 .logo_image2{
- margin-left: 500px;
+ margin-left: 350px;
 }
 .image21{
     margin-left: 80px;
@@ -154,14 +196,195 @@
 .section7{
     width: 696px;
     height: 656px;
+    margin-left: 120px;
 }
 .map{
     width: 696px;
     height: 320px;
-    top: 70px;
-    left: -620px;
+    top: 75px;
+    left: -625px;
 }
 .section7_title{
     margin-left: 250px;
 }
+.title1{
+    margin-left: 120px;
+    margin-top: -5px;
 }
+.input2{
+    margin-left: 150px;
+}
+.label2{
+    margin-left: 150px;
+}
+.section6{
+    width: 696px;
+    height: 1716px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.img92{
+    display: none;
+}
+
+.prc1{
+    display: none;
+}
+.potter5{
+    display: none;
+}
+.shop7{
+    display: none;
+}
+.img95{
+    position: absolute;
+    top: 370px;
+    left: 25px;
+}
+.pottery_cards3{
+    position: absolute;
+   bottom: -320px;
+   left: 900px;
+}
+.image13{
+    position: absolute;
+    top: 350px;
+    left: 25px;
+}
+.img107{
+    position: absolute;
+    left: 450px;
+    top: 350px;
+}
+.title12{
+    position: absolute;
+    top: 600px;
+    left: 455px;
+}
+.prc3{
+    position: absolute;
+    left: 20px;
+    top: 640px;
+}
+.shop20{
+    position: absolute;
+    left: 370px;
+    top: 620px;
+}
+.title13{
+    position: absolute;
+    top: 600px;
+    left: 30px;
+}
+.price7{
+    position: absolute;
+    top: 630px;
+    left: 410px;
+}
+.shop21{
+    position: absolute;
+    top: 600px;
+    left: -90px;
+}
+.image14{
+    position: absolute;
+    left: 430px;
+    top: 40px;
+}
+.title14{
+left: 430px;
+top: 280px;
+}
+.prc{
+    position: absolute;
+    top: 650px;
+    left: -430px;
+}
+.shop22{
+    position: absolute;
+    top: 300px;
+    left: 770px;
+}
+.numbers_div{
+    margin-top: 800px;
+}
+.shop12{
+    position: absolute;
+    top: 940px;
+}
+.title10{
+    position: absolute;
+    left: 30px;
+    top: 610px;
+}
+.price15{
+    position: absolute;
+    left: 30px;
+    top: 300px;
+}
+.shop21{
+    position: absolute;
+    top: 290px;
+    left: 310px;
+}
+.footer2{
+    margin-left: 100px;
+}
+.footer_nav{
+    margin-left: 100px;
+}
+.image3{
+    margin-left: -100px;
+}
+.image44{
+    margin-left: -20px;
+}
+.image49{
+    margin-left: 20px;
+
+}
+.logo_div4{
+    margin-left: -10px;
+}
+.image3{
+    margin-left: 100px;
+}
+.image88{
+margin-left: 100px;
+}
+.image87{
+    margin-left: 100px;
+}
+.logo_div5{
+    margin-left: 300px;
+}
+}
+@media (max-width: 941px){
+    .header_nav{
+     display: none;
+    }
+    .burger, .mark{
+        display: block;
+        font-size: 32px;
+        
+        background-color: rgba(255, 255, 255, 1);
+      }
+      .header1{
+        width: 744px;
+      }
+      .cover1{
+        width: 900px;
+      }
+      .title1{
+        margin-top: -60px;
+        margin-left: 180px;
+      }
+      .logo_image{
+        margin-left: -80px;
+      }
+ 
+      
+    }

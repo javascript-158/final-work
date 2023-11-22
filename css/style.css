@@ -36,7 +36,9 @@
 .fa-xmark{
     display: none;
 }
-
+.mobile_nav{
+    display: none;
+}
 .header_ul{
     display: flex;
 }

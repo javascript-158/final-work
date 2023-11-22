@@ -54,11 +54,11 @@
         margin-left: -310px;
     }
 }
-@media (max-width: 1124px){
+@media (max-width: 1235px){
 .header1{
     display: flex;
     justify-content: space-between;
-    width: 1124px;
+    width: 1195px;
 }
 
 .logo_image{
@@ -86,15 +86,26 @@
     margin-left: -300px;
 }
 }
-@media (max-width: 1024px){
+@media (max-width: 1175px){
+    .header1{
+        width: 1150px;
+    }
+}
+@media (max-width: 1130px){
+    .header1{
+        width: 1100px;
+    }
+}
+@media (max-width: 1087px){
    .header1{
    
     width: 1024px;
-     
+     position: fixed;
+     padding-inline: 20px;
    }
 
    .section_cover{
-    width: 1024px;
+    width: 1069px;
     height: 640px;
    }  
    .cover1{
@@ -128,37 +139,10 @@
    .section3_div{
     margin-left: 32px;
    }
-/* 
-   .img2{
-        
-        width: 591px;
-        
-    }
-    .img5{
-        width: 345px;
-        position: absolute;
-        
-    }
-    .img3{
-        width: 283.5px;
-        position: absolute;
-        top: 530px;
-        left: 320px;
-    }
-.img4{
-    width: 345px;
-    height: 260px;
-    position: absolute;
-    top: 530px;
-}
-.img7{
-    position: absolute;
-    top: 530px;
-    left: 0;
-} */
+
 h3{
   position: absolute;
-  left: 401px;
+  left: 550px;
 }
 .logo_image{
     margin-left: 200px;
@@ -181,15 +165,53 @@ h3{
 .image44{
     margin-left: -120px;
 }
-.image_frame{
 
-}
 .title2{
 position: absolute;
-left: 230px;
+left: 220px;
+}
+.card_title{
+   position: absolute;
+   left: -370px;
+}
+.card_title2{
+   margin-left: -160px;
+}
+
+
+.card_title3{
+margin-left: -150px;
+}
+.section4_div{
+    margin-left: 300px;
 }
 .card_surface_content3{
     display: none;
+}
+.section5_title{
+    margin-left: 30px;
+}
+.input1{
+    margin-left: 30px;
+}
+.label1{
+    margin-left: 30px;
+}
+.article_text3{
+    margin-left: 100px;
+}
+.button3{
+    margin-left: 190px;
+
+}
+.image21{
+    margin-left: 80px;
+}
+.image22{
+    margin-left: 120px;
+}
+.logo_image2{
+    margin-left: 300px;
 }
 .image1{
  
