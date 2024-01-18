@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,16 +10,79 @@
 <body>
     <div class="container7">
 		<h1 class="title22">User Login</h1>
-		<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
-			<div class="font">Email or Phone</div>
-			<input autocomplete="off" type="text" name="email">
+		<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validateform()">
+			
+			
 			<div id="email_error">Please fill up your Email or Phone</div>
 			<div class="font font2">Password</div>
-			<input type="password" name="password">
-			<div id="pass_error">Please fill up your Password</div>
-			<button type="submit">Login</button>
+			<input type="password" name="password" id="username" placeholder="username" required>
+			<br>
+			<input type="password" id="password" placeholder="Password" required>
+			<br>
+
+			<button type="submit" id="loginButton">Login</button>
 		</form>
+		<p id="error"></p>
+		<div id="success"></div>
+		<div id="message"></div>
 	</div>	
 <script src="scripts/validation.js" type="text/javascript"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    #loginForm {
+      width: 300px;
+      margin: 100px auto;
+    }
+
+    input {
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    #loginButton {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      cursor: pointer;
+    }
+
+    #error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+<div id="loginForm">
+  <h2>Login</h2>
+  <form onsubmit="return validateForm()">
+    <input type="text" id="username" placeholder="Username" required>
+    <br>
+    <input type="password" id="password" placeholder="Password" required>
+    <br>
+    <button type="submit" id="loginButton">Login</button>
+  </form>
+  <p id="error"></p>
+</div>
+<div id="success"></div>
+<div id="message"></div>
+
+<script src="scripts/validation.js"></script>
 </body>
 </html>
