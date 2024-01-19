@@ -1462,3 +1462,7 @@ body{
     width: 300px;
     margin: 100px auto;
   }
+.weather{
+    font-size: 20px;
+    color: green;
+}

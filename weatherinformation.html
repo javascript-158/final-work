@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather API Example</title>
+
 </head>
 <body>
-  <h1>Weather API Example</h1>
+  <div class="weather_form">
+  <h1 class="weather">WEATHER INFORMATION</h1>
   <label for="cityInput">Enter City:</label>
-  <input type="text" id="cityInput" placeholder="Enter city name">
-  <button id="getWeatherButton">Get Weather Data</button>
+  <input type="text" id="cityInput" placeholder="Enter city name" class="town">
+  <button id="getWeatherButton" class="weather_button">Get Weather Data</button>
   <div id="weatherData"></div>
-
+</div>
   <script>
     document.getElementById('getWeatherButton').addEventListener('click', fetchWeatherData);
 
@@ -46,5 +48,12 @@
   weatherDataDiv.innerHTML = `<p>City: ${weatherData.name}</p><p>Temperature: ${temperatureCelsius.toFixed(2)}°C</p>`;
 }
   </script>
+<style>
+.weather_form{
+  background-image: url("images/weather.jpg");
+  width: 1920px;
+  height: 1080px;
+}
+</style>
 </body>
 </html>

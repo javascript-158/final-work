@@ -1,84 +1,10 @@
-function submitData() {
-    let firstName = document.getElementById("firstName");
-    let username = document.getElementById("username");
-    let password = document.getElementById("password");
-    let BirthDate = document.getElementById("date")
-    let Email = document.getElementById("Email")
-    let result = document.getElementById("result");
-    
-    let nameValidator = /^[a-zA-Z]{2,50}$/
-    let usernameValidator = /^[a-zA-Z0-9_-]{3,16}$/
-    let passwordValidator = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]{8,}$/
-    let EmailValidator = /^[a-zA-Z]{2,50}$/
-    
-    
-    if (nameValidator.test(firstName.value) === false) {
-        result.style.color = "red";
-        result.innerHTML = "Name validation failed";
-    }
-
-    if (usernameValidator.test(username.value) === false) {
-        result.style.color = "red";
-        result.innerHTML = "username validation failed";
-    }
-
-    if (passwordValidator.test(password.value) === false) {
-        result.style.color = "red";
-        result.innerHTML = "Password validation failed";
-    }
-
-    if (passwordValidator.test(password.value) === true && usernameValidator.test(username.value) === true && nameValidator.test(firstName.value) === true && EmailValidator.test(Email.value) === true)
-    {
-        alert("Success")
-        result.style.color = "green";
-        result.innerHTML = "you have registered succesfully";
-    }
-}
 
 	
-
-    // let email = document.forms['form']['email'];
-    // let password = document.forms['form']['password'];
-    
-    // let email_error = document.getElementById('email_error');
-    // let pass_error = document.getElementById('pass_error');
-    
-    // email.addEventListener('textInput', email_Verify);
-    // password.addEventListener('textInput', pass_Verify);
-    
-    // function validated(){
-    //     if (email.value.length < 9) {
-    //         email.style.border = "1px solid red";
-    //         email_error.style.display = "block";
-    //         email.focus();
-    //         return false;
-    //     }
-    //     if (password.value.length < 6) {
-    //         password.style.border = "1px solid red";
-    //         pass_error.style.display = "block";
-    //         password.focus();
-    //         return false;
-    //     }
-    
-    // }
-    // function email_Verify(){
-    //     if (email.value.length >= 8) {
-    //         email.style.border = "1px solid silver";
-    //         email_error.style.display = "none";
-    //         return true;
-    //     }
-    // }
-    // function pass_Verify(){
-    //     if (password.value.length >= 5) {
-    //         password.style.border = "1px solid silver";
-    //         pass_error.style.display = "none";
-    //         return true;
-    //     }
-    // }
+//SYSTEM ENTER VALIDATOR
     function validateForm() {
-        var username = document.getElementById('username').value;
-        var password = document.getElementById('password').value;
-        var messageElement = document.getElementById('message');
+        let username = document.getElementById('username').value;
+        let password = document.getElementById('password').value;
+        let messageElement = document.getElementById('message');
       
         
         messageElement.textContent = '';
@@ -103,7 +29,7 @@ function submitData() {
       }
       
       function displayMessage(message, color) {
-        var messageElement = document.getElementById('message');
+        let messageElement = document.getElementById('message');
         messageElement.textContent = message;
         messageElement.style.color = color;
     
@@ -111,3 +37,61 @@ function submitData() {
           messageElement.textContent = '';
         }, 10000);
       }
+      
+
+
+
+
+
+
+
+      //REGISTRATION VALIDATOR
+      function validateForm1() {
+     
+        let name = document.getElementById('name').value;
+        let username = document.getElementById('username').value;
+        let birthdate = document.getElementById('birthdate').value;
+        let email = document.getElementById('email').value;
+  
+        
+        document.getElementById('errorContainer').innerHTML = '';
+  
+    
+        let isValid = true;
+        let errorMessage = '';
+  
+       
+        if (name.trim() === '' || username.trim() === '' || birthdate.trim() === '' || email.trim() === '') {
+          isValid = false;
+          errorMessage = 'All fields are required.';
+        } else {
+          
+          if (!/\d/.test(username)) {
+            isValid = false;
+            errorMessage = 'Username must include at least one number.';
+          }
+  
+          
+          if (!isValidEmail(email)) {
+            isValid = false;
+            errorMessage = 'Invalid email format.';
+          }
+        }
+  
+       
+        let errorContainer = document.getElementById('errorContainer');
+        if (!isValid) {
+          errorContainer.innerHTML = '<p class="error">' + errorMessage + '</p>';
+        } else {
+          errorContainer.innerHTML = '<p class="success">Registration successful!</p>';
+        }
+      }
+  
+     
+      function isValidEmail(email) {
+        let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+      }
+
+
+
